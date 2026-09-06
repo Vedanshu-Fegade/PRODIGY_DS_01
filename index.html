@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PRODIGY_DS_01 | Population Data Visualization</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+      line-height: 1.6;
+    }
+    .container { max-width: 1100px; margin: auto; padding: 24px; }
+    header {
+      padding: 70px 24px;
+      text-align: center;
+      background: linear-gradient(135deg, #1e1b4b, #312e81);
+    }
+    h1 { font-size: 46px; margin: 0 0 12px; }
+    .subtitle { font-size: 20px; color: #cbd5e1; }
+    .btn {
+      display: inline-block;
+      margin-top: 24px;
+      padding: 12px 20px;
+      border-radius: 8px;
+      background: #fff;
+      color: #1e1b4b;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section { margin: 40px 0; }
+    h2 { color: #a5b4fc; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 18px;
+    }
+    .card {
+      background: #1e293b;
+      padding: 22px;
+      border-radius: 12px;
+      border: 1px solid #334155;
+    }
+    .number { font-size: 28px; font-weight: bold; color: #c4b5fd; }
+    .visualizations {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 24px;
+    }
+    .visualizations img {
+      width: 100%;
+      border-radius: 10px;
+      background: white;
+    }
+    code {
+      background: #1e293b;
+      padding: 3px 7px;
+      border-radius: 5px;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #94a3b8;
+      border-top: 1px solid #334155;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <h1>PRODIGY_DS_01</h1>
+    <p class="subtitle">Population Data Visualization using Python</p>
+    <a class="btn" href="https://github.com/Vedanshu-Fegade/PRODIGY_DS_01" target="_blank">
+      View GitHub Repository
+    </a>
+  </div>
+</header>
+
+<main class="container">
+
+  <section>
+    <h2>📌 Project Overview</h2>
+    <p>
+      This project analyzes population data and creates visualizations to understand
+      population distributions across countries. The project was completed as part
+      of the Prodigy InfoTech Data Science Internship.
+    </p>
+  </section>
+
+  <section>
+    <h2>📊 Key Results</h2>
+    <div class="cards">
+      <div class="card">
+        <div class="number">2023</div>
+        <div>Data Year</div>
+      </div>
+      <div class="card">
+        <div class="number">256</div>
+        <div>Entries Analyzed</div>
+      </div>
+      <div class="card">
+        <div class="number">15</div>
+        <div>Top Populations Visualized</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>📈 Visualizations</h2>
+    <div class="visualizations">
+      <div class="card">
+        <h3>Top 15 Most Populous Countries</h3>
+        <img src="outputs/top_country_populations.png"
+             alt="Top 15 most populous countries">
+      </div>
+
+      <div class="card">
+        <h3>Population Distribution</h3>
+        <img src="outputs/population_distribution.png"
+             alt="Distribution of country populations">
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>🔍 Key Finding</h2>
+    <div class="card">
+      <p>
+        The population distribution is strongly right-skewed, meaning that a small
+        number of countries have much larger populations than most countries.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h2>🛠️ Technologies</h2>
+    <p>
+      <code>Python</code>
+      <code>Pandas</code>
+      <code>Matplotlib</code>
+      <code>Seaborn</code>
+    </p>
+  </section>
+
+  <section>
+    <h2>📚 Data Source</h2>
+    <p>
+      Our World in Data — Population Dataset
+    </p>
+    <a class="btn" href="https://ourworldindata.org/grapher/population.csv" target="_blank">
+      View Dataset
+    </a>
+  </section>
+
+</main>
+
+<footer>
+  <p>PRODIGY_DS_01 · Data Science Internship Project</p>
+  <p>Created by Vedanshu Fegade</p>
+</footer>
+
+</body>
+</html>
