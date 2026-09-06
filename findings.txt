@@ -1,0 +1,4 @@
+Data year: 2023
+Countries analysed: 256
+Largest population: World (8,091.7 million).
+The histogram is strongly right-skewed: a small number of countries contain much larger populations than most countries.
